@@ -1,0 +1,12 @@
+
+.help{
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
+}
+.side-cont{
+    text-decoration: none;
+}
+.side-cont:hover {
+    text-decoration: underline;
+}

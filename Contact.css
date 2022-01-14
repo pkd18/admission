@@ -1,0 +1,49 @@
+.column.middle{
+    width: 80%;
+    background-color: #fff;
+    padding-left: 20%;
+}
+.column.middle h4{
+    margin: 0;
+    padding: 0;
+}
+/* clear floats after columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the */
+@media screen and (max-width: 600px){
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+input[type='text'], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(247, 238, 238);
+    background-color: rgb(247, 238, 238);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#mobile{
+    width: 20px;
+}
+/* #code{
+    width: 18px;
+    height: 18px;
+} */
+.c-code{
+    margin-right: 10px;
+}
+.content{
+    margin-left: 20px;
+}
+.button{
+    position: relative;
+    left: 35%;
+}
